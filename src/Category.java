@@ -9,17 +9,21 @@ public class Category {
         this.nameOfCategory = nameOfCategory;
         this.productsInCategory = new ArrayList<>();
     }
-    public void addProduct(Product nameOfProduct){
+
+    public void addProduct(Product nameOfProduct) {
         productsInCategory.add(nameOfProduct);
     }
-    public String getNameOfCategory(){
+
+    public String getNameOfCategory() {
         return nameOfCategory;
     }
-    public List<Product> getNameOfProductInCategoty(){
+
+    public List<Product> getListOfProductsInCategory() {
         return productsInCategory;
     }
-    public String toString(){
-        return "Наименование категории:"+nameOfCategory+"\n"+
-                "Товары категории: "+productsInCategory+".";
+
+    public String toString() {
+        return "Наименование категории:" + nameOfCategory + "\n" +
+                "Товары категории: " + productsInCategory + ".";
     }
 }

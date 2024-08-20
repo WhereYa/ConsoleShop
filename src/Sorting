@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SortParameters>
+    <SortParameter>
+        <Parameter>Price</Parameter>
+        <Method>ASC</Method>
+    </SortParameter>
+
+    <SortParameter>
+        <Parameter>Name</Parameter>
+        <Method>ASC</Method>
+    </SortParameter>
+
+    <SortParameter>
+        <Parameter>Rating</Parameter>
+        <Method>DESC</Method>
+    </SortParameter>
+</SortParameters>
